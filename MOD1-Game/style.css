@@ -1,30 +1,67 @@
 
 
-#div1,#div2,#div3,#div4,#div5,#div6,#div7,#div8,#div9{
-  /* height:180px; */
-  /* width:180px; */
-  border:4px solid black;
-  /* display:flex; */
+
+.box{
+  font-size:50px;
+  /* text-align: center; */
+  /* padding:5px; */
+  border:2px solid black;
+  width:100px;
+  height:100px;
+  line-height:100px;
+  text-align: center;
+  
+  
+
+
 
 }
 #container{
   /* display:flex; */
   display:grid;
-
-  /* grid-template-columns: 1fr 1fr 1fr; */
-  /* grid-template-rows: 1fr 1fr 1fr; */
-  width:500px;
-  height:500px;
-  margin:0 auto;
-  border:5px solid black;
-  background-color:dimgrey ;
-  /* align-items: center; */
-  /* justify-content: center; */
-  /* align-content: center; */
+  /* width:400px; */
+  width:312px;
+  /* height:400px; */
+  /* margin:0 auto; */
+  margin:50px auto;
+  border:2px solid black;
+  background-color:lightgray;
   grid-template-columns:repeat(3,auto);
+  
+}
+h1{
+  font-size:30px;
+  color:purple;
+  text-align: center;
+  margin:0;
+  padding:0;
+}
+h2{
+  font-size: 20px;
+  text-align: center;
+}
+#restart-btn{
+  padding:7px;
+  border-radius: 10px;
+  color:white;
+  background-color: purple;
+  font-size: 15px;
+
+}
+#restart-btn:hover{
+  cursor:pointer;
 }
 
-#div1,#div4,#div7{
-  /* justify-content: left; */
-  /* align-items: center; */
-}
+
+/* .winning-message{
+  position:fixed;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  background-color: black;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  color:white;
+} */
