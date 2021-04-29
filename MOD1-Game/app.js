@@ -7,7 +7,7 @@ const xbox_text="X";
 let current_player= xbox_text;
 
 let Player1, Player2;
-// let empty_boxes=[];
+
 let empty_array=[];
 let count=0;
 var counterPlayer1=0;
@@ -88,7 +88,7 @@ function data(event){
              return true;
           }
       }
-     
+       //checking with 4th index element
       if(empty_array[4] === current_player){
          if(empty_array[1] === current_player && empty_array[7] === current_player){
 
@@ -115,7 +115,7 @@ function data(event){
              return true;
          }
       }
-      //checking with index 8th element
+      //checking with 8th index element
       if(empty_array[8] === current_player){
           if(empty_array[6] === current_player && empty_array[7] === current_player){
 
