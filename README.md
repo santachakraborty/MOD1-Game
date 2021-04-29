@@ -3,7 +3,9 @@ Game: Tic Tac Toe
 
 Rules: 2 player game. The winner has to get 3 X's or 3 O's in a row, column or diagonally. 
 Tools used: HTML5, CSS3, Vanilla Javascript.
+
 Design: 3X3 grid
+
 Description of game: Taking turns click only on empty spaces to mark X's and O's in the grid.
 Restart button will clear the grid and start over again. Reset will clear the score for players.
 
