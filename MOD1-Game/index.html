@@ -4,16 +4,23 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MOD-1 GAME</title>
+  <title>MOD-1 GAME-Tic Tac Toe</title>
   <link rel="stylesheet" href="style.css">
+
+  <script src="app.js"></script>
 </head>
 <body>
-  <h1>Tic Tac Toe</h1>
-  <!-- h2 is for winner display -->
-  <h2 id="status">Play</h2>
+  
+  <h2 id="status">Let's Play</h2>
+
+  <p id="player1">Player 1 score:</p>
+  <p id="player2">Player 2 score:</p>
+  
+  
   
   <div id="container">
       
+    
     <div class="box" id="0" onclick="data(event)"></div>
     <div class="box" id="1" onclick="data(event)"></div>
     <div class="box" id="2" onclick="data(event)"></div>
@@ -25,10 +32,12 @@
     <div class="box" id="8" onclick="data(event)"></div>
 
   </div>
-  <div class="winning-message">
-    <button id="restart-btn">Restart</button>
-  </div>
+  
+    <button id="restart-btn" onclick="restartGame()">Restart</button>
+    <button id="reset-btn" onclick="resetScore()">Reset</button>
+  
+    
 
-  <script src="app.js"></script>
+  
 </body>
 </html>
